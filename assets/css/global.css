@@ -1,0 +1,38 @@
+@font-face {
+    src: url('@/assets/fonts/Poppins-Regular.ttf');
+    font-family: 'Poppins';
+    font-weight: normal;
+}
+
+@font-face {
+    src: url('@/assets/fonts/Poppins-Bold.ttf');
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+*:not(.material-icons) {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url('~/assets/img/bg.png') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: overlay;
+}
+
+::-webkit-scrollbar {
+    /* background-color: transparent; */
+    background: #1C1C1C;
+    width: 8px;
+    padding: 8px;
+}
+
+/* ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+} */
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffcc00c8;
+    border-radius: 999999px;
+}

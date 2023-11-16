@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="91.357" height="87.93" viewBox="0 0 91.357 87.93">
+  <defs>
+    <filter id="Divider" x="0" y="0" width="91.357" height="87.93" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur"/>
+      <feFlood flood-color="#ffd118" flood-opacity="0.549"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Divider)">
+    <g id="Divider-2" data-name="Divider" transform="translate(58.36 51.93) rotate(180)" fill="none">
+      <path d="M12.678,0,25.357,21.93H0Z" stroke="none"/>
+      <path d="M 12.67839336395264 9.989940643310547 L 8.666059494018555 16.93019676208496 L 16.69072723388672 16.93019676208496 L 12.67839336395264 9.989940643310547 M 12.67839336395264 -1.9073486328125e-06 L 25.35678291320801 21.93019676208496 L 3.814697265625e-06 21.93019676208496 L 12.67839336395264 -1.9073486328125e-06 Z" stroke="none" fill="#ffd118"/>
+    </g>
+  </g>
+</svg>
