@@ -210,13 +210,12 @@ import VueWriter from "vue-writer";
 
 
 useHead({
-  title: 'My App',
+  title: 'Raldin Casidar Studios | Expert Software Engineers Crafting Innovative Solutions',
   meta: [
-    { name: 'description', content: 'My amazing site.' }
+    { name: 'description', content: 'At Raldin Casidar Studios, we are a dynamic team of software engineers dedicated to building cutting-edge software, websites, and mobile apps. Partner with us to elevate your business with tailor-made technological solutions. Visit us at raldincasidar.studio for transformative tech expertise.' }
   ],
   bodyAttrs: {
     class: 'test'
-  },
-  script: [ { innerHTML: 'console.log(\'Hello world\')' } ]
+  }
 })
 </script>
