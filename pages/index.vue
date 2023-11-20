@@ -181,12 +181,78 @@
         </div>
     </div>
 </div>
+
+
+
+<div class="call-to-action my-20 py-10">
+    <div class="box border-t-2 border-b-2 border-yellow-400 bg-[#222222]">
+        <div class="flex mx-auto max-w-screen-xl items-center">
+            <div class="p-8 py-[40px] w-2/4">
+                <i class="material-icons text-[70px] text-yellow-400">schedule</i>
+                <h2 class="text-2xl font-bold text-white">Let's Schedule your</h2>
+                <h2 class="text-4xl font-bold text-yellow-400 my-7">FREE CONSULTATION</h2>
+                <p class="text-lg text-gray-300 leading-loose">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was.</p>
+            </div>
+            <div class="p-8 w-2/4">
+                <div class="calendly-inline-widget shadow-yellow-400/20 shadow-lg rounded-xl h-[700px] -my-16 max-w-md mx-auto overflow-hidden" data-url="https://calendly.com/raldincasidar/free-consultation"></div>
+               <!-- <div class="">
+               </div> -->
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="our-services min-h-full py-20 px-10 text-center max-w-screen-xl mx-auto">
+    <h3 class="text-white text-4xl font-bold ">Our DevBlogs</h3>
+    <img class="mx-auto mb-20" src="~/assets/img/divider.svg" alt="">
+
+
+    <ClientOnly>
+        <carousel :items-to-show="2.5" :wrap-around="true" class="shadow-x-md">
+            <slide v-for="slide in 10" :key="slide" class="p-3">
+                <div class="border-gray-400 border rounded-lg p-5 py-8 pt-0 text-center w-full mt-20 group hover:shadow-lg shadow-yellow-400 transition-shadow cursor-pointer active:scale-95 transition-transform">
+                    <div class="w-full pb-[56%] bg-gray-400 rounded-lg shadow-yellow-400/30 shadow-lg mb-10 -mt-16 -rotate-1 bg-no-repeat bg-cover transition-transform group-hover:scale-105 group-hover:rotate-3" style="background-image: url('https://picsum.photos/1080/720')"></div>
+                    <h6 class="text-left text-gray-400 my-4">5 mins read - Raldin C. Disomimba</h6>
+                    <h4 class="text-left text-xl font-bold text-yellow-400 drop-shadow-lg">Why do you need to work in a grabe environment</h4>
+                    <a href="#!" class="inline-block mt-10 w-full rounded-full border-2 border-yellow-400 p-3 text-white font-bold shadow-md shadow-yellow-400/20 group-hover:bg-yellow-400 group-hover:text-gray-800 transition-colors focus:ring-2 ring-white">READ ARTICLE</a>
+                </div>
+            </slide>
+
+            <!-- <template #addons>
+                <navigation />
+                <pagination />
+            </template> -->
+    </carousel>
+    </ClientOnly>
+    <!-- <div class="flex flex-nowrap gap-10 overflow-x-scroll py-4 pb-10"> -->
+<!-- 
+
+        <div class="border-gray-400 border rounded-lg p-5 py-8 pt-0 text-center w-[400px] flex-none mt-20" v-for="i in 5" :key="i">
+            <div class="w-full pb-[56%] bg-gray-400 rounded-lg shadow-yellow-400/30 shadow-lg mb-10 -mt-16 -rotate-1 bg-no-repeat bg-cover" style="background-image: url('https://picsum.photos/1080/720')"></div>
+            <h6 class="text-left text-gray-400 my-4">5 mins read - Raldin C. Disomimba</h6>
+            <h4 class="text-left text-xl font-bold text-yellow-400 drop-shadow-lg">Why do you need to work in a grabe environment</h4>
+            <a href="#!" class="inline-block mt-10 w-full rounded-full border-2 border-yellow-400 p-3 text-white font-bold shadow-md shadow-yellow-400/20">READ ARTICLE</a>
+        </div> -->
+    <!-- </div> -->
+</div>
+
 </template>
 
 <style>
 .is-typed span.cursor {
   display: inline-block;
   width: 3px;
+  background-color: #FFD118;
+  animation: blink 1s infinite;
+}
+
+.is-typed span.underscore {
+  display: inline-flex;
+  width: 17px;
+  height: 7px;
+  align-items:flex-end;
   background-color: #FFD118;
   animation: blink 1s infinite;
 }
@@ -203,11 +269,18 @@
   }
 }
 
+iframe::-webkit-scrollbar {
+    display: none;
+}
+
+.shadow-x-md {
+    box-shadow: inset 25px 0px 25px -25px rgba(0,0,0,0.45), inset -25px 0px 25px -25px rgba(0, 0, 0, 0.246);
+}
+
 </style>
 
 <script setup>
 import VueWriter from "vue-writer";
-
 
 useHead({
   title: 'Raldin Casidar Studios | Expert Software Engineers Crafting Innovative Solutions',
@@ -216,6 +289,9 @@ useHead({
   ],
   bodyAttrs: {
     class: 'test'
-  }
+  },
+  script: [
+        { src: 'https://assets.calendly.com/assets/external/widget.js'}
+    ]
 })
 </script>

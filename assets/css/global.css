@@ -25,6 +25,7 @@ body {
     /* background-color: transparent; */
     background: #1C1C1C;
     width: 8px;
+    height: 8px;
     padding: 8px;
 }
 
@@ -33,6 +34,14 @@ body {
 } */
 
 ::-webkit-scrollbar-thumb {
-    background-color: #ffcc00c8;
+    background-color: #ffcc0022;
     border-radius: 999999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ffcc00c8;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: #ffcc00;
 }
