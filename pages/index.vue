@@ -220,23 +220,66 @@
                 </div>
             </slide>
 
-            <!-- <template #addons>
-                <navigation />
+            <template #addons>
+                <!-- <navigation /> -->
                 <pagination />
-            </template> -->
-    </carousel>
+            </template>
+        </carousel>
     </ClientOnly>
-    <!-- <div class="flex flex-nowrap gap-10 overflow-x-scroll py-4 pb-10"> -->
-<!-- 
-
-        <div class="border-gray-400 border rounded-lg p-5 py-8 pt-0 text-center w-[400px] flex-none mt-20" v-for="i in 5" :key="i">
-            <div class="w-full pb-[56%] bg-gray-400 rounded-lg shadow-yellow-400/30 shadow-lg mb-10 -mt-16 -rotate-1 bg-no-repeat bg-cover" style="background-image: url('https://picsum.photos/1080/720')"></div>
-            <h6 class="text-left text-gray-400 my-4">5 mins read - Raldin C. Disomimba</h6>
-            <h4 class="text-left text-xl font-bold text-yellow-400 drop-shadow-lg">Why do you need to work in a grabe environment</h4>
-            <a href="#!" class="inline-block mt-10 w-full rounded-full border-2 border-yellow-400 p-3 text-white font-bold shadow-md shadow-yellow-400/20">READ ARTICLE</a>
-        </div> -->
-    <!-- </div> -->
 </div>
+
+
+<div class="footer py-6 bg-[#171717]">
+    <div class=" max-w-screen-xl mx-auto ">
+        <div class="email-list text-center my-12">
+            <h3 class="text-white font-bold text-2xl mb-12">Get Updated to our Latest News!</h3>
+            <div class="flex justify-center gap-4 my-5 max-w-screen-md mx-auto">
+                <input class="bg-white/20 rounded-full p-4 w-full font-bold text-white outline-none px-7 shadow-md" type="text" placeholder="Your Email Address">
+                <button class="p-4 px-7 font-bold uppercase text-gray-800 bg-yellow-400 rounded-full shadow-md">SUBSCRIBE</button>
+            </div>
+        </div>
+        <div class="border-b-2 border-yellow-400 border-dashed"></div>
+        <div class="flex my-12 gap-12">
+            <div class="logos w-2/6">
+                <img src="@/assets/img/raldin-casidar-studio-logo-w-text.png" class="my-6 w-72" alt="">
+                <div class="mt-12">
+                    <a href="#!" class="text-yellow-400 m-1 hover:bg-yellow-400/50 transition-colors pt-3 px-2 rounded-full">
+                        <i class="material-icons text-2xl">facebook</i>
+                    </a>
+                    <a href="#!" class="text-yellow-400 m-1 hover:bg-yellow-400/50 transition-colors pt-3 px-2 rounded-full">
+                        <i class="material-icons text-2xl">facebook</i>
+                    </a>
+                    <a href="#!" class="text-yellow-400 m-1 hover:bg-yellow-400/50 transition-colors pt-3 px-2 rounded-full">
+                        <i class="material-icons text-2xl">facebook</i>
+                    </a>
+                    <a href="#!" class="text-yellow-400 m-1 hover:bg-yellow-400/50 transition-colors pt-3 px-2 rounded-full">
+                        <i class="material-icons text-2xl">facebook</i>
+                    </a>
+                    <a href="#!" class="text-yellow-400 m-1 hover:bg-yellow-400/50 transition-colors pt-3 px-2 rounded-full">
+                        <i class="material-icons text-2xl">facebook</i>
+                    </a>
+                </div>
+            </div>
+            <div class="menus p-4 w-2/6">
+                <h2 class="text-white text-sm font-bold text-yellow-400 tracking-[0.6em]">SERVICES</h2>
+                <div class="links flex flex-col mt-6">
+                    <a href="#!" class="inline-block text-white my-2 font-bold group"> <i class="material-icons text-2xl text-yellow-400 mr-1 align-middle transition-opacity  opacity-0 group-hover:opacity-100 overflow-hidden inline-block">web_asset</i> Web Development</a>
+                    <a href="#!" class="inline-block text-white my-2 font-bold group"> <i class="material-icons text-2xl text-yellow-400 mr-1 align-middle transition-opacity  opacity-0 group-hover:opacity-100 overflow-hidden inline-block">smartphone</i> Mobile App Development</a>
+                    <a href="#!" class="inline-block text-white my-2 font-bold group"> <i class="material-icons text-2xl text-yellow-400 mr-1 align-middle transition-opacity  opacity-0 group-hover:opacity-100 overflow-hidden inline-block">dns</i> System Development</a>
+                </div>
+            </div>
+            <div class="menus p-4 w-2/6">
+                <h2 class="text-white text-sm font-bold text-yellow-400 tracking-[0.6em]">LINKS</h2>
+                <div class="links flex flex-col mt-6">
+                    <a href="#!" class="inline-block text-white my-2 font-bold group"> <i class="material-icons text-2xl text-yellow-400 mr-1 align-middle transition-opacity  opacity-0 group-hover:opacity-100 overflow-hidden inline-block">info</i> About</a>
+                    <a href="#!" class="inline-block text-white my-2 font-bold group"> <i class="material-icons text-2xl text-yellow-400 mr-1 align-middle transition-opacity  opacity-0 group-hover:opacity-100 overflow-hidden inline-block">feed</i> News</a>
+                    <a href="#!" class="inline-block text-white my-2 font-bold group"> <i class="material-icons text-2xl text-yellow-400 mr-1 align-middle transition-opacity  opacity-0 group-hover:opacity-100 overflow-hidden inline-block">code</i> Projects</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 </template>
 
@@ -275,6 +318,14 @@ iframe::-webkit-scrollbar {
 
 .shadow-x-md {
     box-shadow: inset 25px 0px 25px -25px rgba(0,0,0,0.45), inset -25px 0px 25px -25px rgba(0, 0, 0, 0.246);
+}
+
+.carousel__pagination-button::after {
+    background-color: rgba(255, 255, 255, 0.112);
+}
+
+.carousel__pagination-button:hover::after, .carousel__pagination-button--active::after {
+    background-color: #FFD118;
 }
 
 </style>
