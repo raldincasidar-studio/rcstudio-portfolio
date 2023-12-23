@@ -1,5 +1,5 @@
 <template>
-<Navbar></Navbar>
+<!-- <Navbar></Navbar> -->
 
 <div class="hero-page text-center py-20 px-5 md:px-10 max-w-screen-xl mx-auto">
     <img src="~/assets/img/raldin-casidar-icon.png" alt="Raldin Casidar's Logo" class="md:h-25 h-20 mx-auto">
@@ -37,7 +37,7 @@
     <div class="flex flex-row flex-wrap justify-center">
         <div class="w-full p-3 lg:w-1/2 xl:w-2/6">
             <div class="group border border-gray-600 p-5 py-10 border-b-4 border-b-yellow-400 hover:shadow-xl hover:shadow-yellow-400/30 transition-shadow cursor-pointer">
-                <i class="material-icons text-6xl text-white text-yellow-400 my-5 transition-transform">web</i>
+                <i class="material-icons text-6xl  text-yellow-400 my-5 transition-transform">web</i>
                 <h4 class="font-bold text-white text-3xl mb-7">Web Designing</h4>
                 <ul>
                     <li class="text-white/70 my-3"> <i class="material-icons text-lg text-yellow-400 mr-3 align-middle">check</i> Create Prototypes and Designs</li>
@@ -54,7 +54,7 @@
         </div>
         <div class="w-full p-3 lg:w-1/2 xl:w-2/6">
             <div class="group border border-gray-600 p-5 py-10 border-b-4 border-b-yellow-400 hover:shadow-xl hover:shadow-yellow-400/30 transition-shadow cursor-pointer">
-                <i class="material-icons text-6xl text-white text-yellow-400 my-5 transition-transform">web</i>
+                <i class="material-icons text-6xl  text-yellow-400 my-5 transition-transform">web</i>
                 <h4 class="font-bold text-white text-3xl mb-7">Web Designing</h4>
                 <ul>
                     <li class="text-white/70 my-3"> <i class="material-icons text-lg text-yellow-400 mr-3 align-middle">check</i> Create Prototypes and Designs</li>
@@ -71,7 +71,7 @@
         </div>
         <div class="w-full p-3 lg:w-1/2 xl:w-2/6">
             <div class="group border border-gray-600 p-5 py-10 border-b-4 border-b-yellow-400 hover:shadow-xl hover:shadow-yellow-400/30 transition-shadow cursor-pointer">
-                <i class="material-icons text-6xl text-white text-yellow-400 my-5 transition-transform">web</i>
+                <i class="material-icons text-6xl  text-yellow-400 my-5 transition-transform">web</i>
                 <h4 class="font-bold text-white text-3xl mb-7">Web Designing</h4>
                 <ul>
                     <li class="text-white/70 my-3"> <i class="material-icons text-lg text-yellow-400 mr-3 align-middle">check</i> Create Prototypes and Designs</li>
@@ -179,7 +179,7 @@
                 <h2 class="text-xl md:text-2xl font-bold text-white">Let's Schedule your</h2>
                 <h2 class="text-2xl md:text-4xl font-bold text-yellow-400 my-7">FREE CONSULTATION</h2>
                 <p class="text-lg text-gray-300 leading-loose">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was.</p>
-                <a href="#!" class="inline-block bg-yellow-400 m-4 p-3 px-6 rounded-full font-bold mt-12 text-lg shadow-lg shadow-yellow-400/30 active:scale-105 active:shadow-xl transition-all">FREE CONSULTATION <i class="material-icons align-middle text-xl ml-2">arrow_forward</i></a>
+                <a href="#!" class="inline-block bg-yellow-400 m-4 p-3 px-6 text-nowrap overflow-hidden truncate max-w-full rounded-full font-bold mt-12 text-lg shadow-lg shadow-yellow-400/30 active:scale-105 active:shadow-xl transition-all">FREE CONSULTATION <i class="material-icons align-middle text-xl ml-2">arrow_forward</i></a>
             </div>
             <div class="hidden md:block p-8 w-2/4">
                 <div class="calendly-inline-widget shadow-yellow-400/20 shadow-lg rounded-xl h-[700px] -my-16 max-w-md mx-auto overflow-hidden" data-url="https://calendly.com/raldincasidar/free-consultation"></div>
@@ -200,7 +200,7 @@
     <ClientOnly>
         <carousel :items-to-show="showCarouselItem" :wrap-around="true" class="shadow-x-md">
             <slide v-for="slide in 10" :key="slide" class="p-3">
-                <div class="border-gray-400 border rounded-lg p-5 py-8 pt-0 text-center w-full mt-20 group hover:shadow-lg shadow-yellow-400 transition-shadow cursor-pointer active:scale-95 transition-transform">
+                <div class="border-gray-400 border rounded-lg p-5 py-8 pt-0 text-center w-full mt-20 group hover:shadow-lg shadow-yellow-400 transition-all cursor-pointer active:scale-95">
                     <div class="w-full pb-[56%] bg-gray-400 rounded-lg shadow-yellow-400/30 shadow-lg mb-10 -mt-16 -rotate-1 bg-no-repeat bg-cover transition-transform group-hover:scale-105 group-hover:rotate-3" style="background-image: url('https://picsum.photos/1080/720')"></div>
                     <h6 class="text-left text-gray-400 my-4">5 mins read - Raldin C. Disomimba</h6>
                     <h4 class="text-left text-xl font-bold text-yellow-400 drop-shadow-lg">Why do you need to work in a grabe environment</h4>
@@ -217,7 +217,7 @@
 </div>
 
 
-<Footer></Footer>
+<!-- <Footer></Footer> -->
 
 
 </template>

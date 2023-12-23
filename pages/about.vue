@@ -1,10 +1,10 @@
 <template>
-    <Navbar></Navbar>
+    <!-- <Navbar></Navbar> -->
     
     <div class="hero-page text-center py-20 px-5 md:px-10 max-w-screen-xl mx-auto">
         <h2 class="text-white text-2xl md:text-4xl my-10 font-bold">About Us</h2>
         <!-- <h1 class="text-yellow-400 drop-shadow-xl shadow-yellow-400/50 text-7xl my-10 font-bold">Design Websites</h1> -->
-        <h1 class="text-yellow-400 drop-shadow-xl leading-loose shadow-yellow-400/50 text-5xl md:text-7xl my-10 font-bold">We help you with your Software Projects</h1>
+        <h1 class="text-yellow-400 drop-shadow-xl leading-relaxed shadow-yellow-400/50 text-5xl md:text-7xl my-10 font-bold">We help you with your Software Projects</h1>
         <p class="text-white/70 text-md md:text-lg  leading-10">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and.</p>
         <a class="rounded-full inline-block white-text p-4 px-6 bg-yellow-400 mt-20 shadow-md shadow-yellow-400/50 font-bold uppercase hover:scale-110 transition-all hover:shadow-lg active:scale-95 active:shadow-sm" href="#!">CREATE YOUR PROJECTS!</a>
     </div>
@@ -144,7 +144,7 @@
                     <h2 class="text-xl md:text-2xl font-bold text-white">Let's Schedule your</h2>
                     <h2 class="text-2xl md:text-4xl font-bold text-yellow-400 my-7">FREE CONSULTATION</h2>
                     <p class="text-lg text-gray-300 leading-loose">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was.</p>
-                    <a href="#!" class="inline-block bg-yellow-400 m-4 p-3 px-6 rounded-full font-bold mt-12 text-lg shadow-lg shadow-yellow-400/30 active:scale-105 active:shadow-xl transition-all">FREE CONSULTATION <i class="material-icons align-middle text-xl ml-2">arrow_forward</i></a>
+                    <a href="#!" class="inline-block bg-yellow-400 m-4 p-3 px-6 text-nowrap overflow-hidden truncate max-w-full rounded-full font-bold mt-12 text-lg shadow-lg shadow-yellow-400/30 active:scale-105 active:shadow-xl transition-all">FREE CONSULTATION <i class="material-icons align-middle text-xl ml-2">arrow_forward</i></a>
                 </div>
                 <div class="hidden md:block p-8 w-2/4">
                     <div class="calendly-inline-widget shadow-yellow-400/20 shadow-lg rounded-xl h-[700px] -my-16 max-w-md mx-auto overflow-hidden" data-url="https://calendly.com/raldincasidar/free-consultation"></div>
@@ -159,7 +159,7 @@
     
     
     
-    <Footer></Footer>
+    <!-- <Footer></Footer> -->
     
     
     </template>
@@ -236,6 +236,8 @@
     onMounted(() => {
         listenAndAdjust()
         window.addEventListener('resize', listenAndAdjust, true);
+
+        
     })
     
     onUnmounted(() => {

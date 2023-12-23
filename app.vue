@@ -1,0 +1,9 @@
+<template>
+    <div>
+      <NuxtLayout>
+        <Navbar></Navbar>
+        <NuxtPage/>
+        <Footer></Footer>
+      </NuxtLayout>
+    </div>
+  </template>

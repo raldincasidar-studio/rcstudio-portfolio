@@ -4,8 +4,8 @@
         <div class="email-list text-center my-12">
             <h3 class="text-white font-bold text-2xl mb-12">Get Updated to our Latest News!</h3>
             <div class="flex justify-center flex-col md:flex-row gap-4 my-5 max-w-screen-md mx-auto">
-                <input class="bg-white/20 rounded-full p-4 w-full font-bold text-white outline-none px-7 shadow-md" type="text" placeholder="Your Email Address">
-                <button class="p-4 px-7 font-bold uppercase text-gray-800 bg-yellow-400 rounded-full shadow-md">SUBSCRIBE</button>
+                <input class="bg-white/20 rounded-full focus:ring-2 ring-white p-4 w-full font-bold text-white outline-none px-7 shadow-md" type="text" placeholder="Your Email Address">
+                <button class="p-4 px-7 font-bold uppercase text-gray-800 bg-yellow-400 rounded-full shadow-md active:scale-95 active:shadow-sm transition-all">SUBSCRIBE</button>
             </div>
         </div>
         <div class="border-b-2 border-yellow-400 border-dashed"></div>
