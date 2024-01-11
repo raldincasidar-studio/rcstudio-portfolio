@@ -11,8 +11,8 @@
             </a>
             <nuxt-link to="/" class="uppercase hidden lg:inline-block text-white border-3 border-white font-bold p-3 px-5 rounded-full hover:bg-yellow-400/10 transition-colors focus:ring-2 ring-white" :class="{'text-yellow-400': false}">Home</nuxt-link>
             <nuxt-link to="/about" class="uppercase hidden lg:inline-block text-white border-3 border-white font-bold p-3 px-5 rounded-full hover:bg-yellow-400/10 transition-colors focus:ring-2 ring-white  hover:text-white" :class="{'text-yellow-400': false}">About</nuxt-link>
-            <nuxt-link to="/" class="uppercase hidden lg:inline-block text-white border-3 border-white font-bold p-3 px-5 rounded-full hover:bg-yellow-400/10 transition-colors focus:ring-2 ring-white  hover:text-white" :class="{'text-yellow-400': false}">Projects</nuxt-link>
-            <nuxt-link to="/" class="uppercase hidden lg:inline-block text-white border-3 border-white font-bold p-3 px-5 rounded-full hover:bg-yellow-400/10 transition-colors focus:ring-2 ring-white  hover:text-white" :class="{'text-yellow-400': false}">Blogs</nuxt-link>
+            <nuxt-link to="/projects" class="uppercase hidden lg:inline-block text-white border-3 border-white font-bold p-3 px-5 rounded-full hover:bg-yellow-400/10 transition-colors focus:ring-2 ring-white  hover:text-white" :class="{'text-yellow-400': false}">Projects</nuxt-link>
+            <nuxt-link to="/blogs" class="uppercase hidden lg:inline-block text-white border-3 border-white font-bold p-3 px-5 rounded-full hover:bg-yellow-400/10 transition-colors focus:ring-2 ring-white  hover:text-white" :class="{'text-yellow-400': false}">Blogs</nuxt-link>
             <nuxt-link to="/" class="uppercase hidden lg:inline-block text-white border-3 font-bold p-3 px-5 rounded-full hover:bg-yellow-400/10 transition-colors border-2 border-yellow-400 hover:text-white ml-2">FREE QUOTE!</nuxt-link>
         </div>
     </div>
@@ -28,10 +28,10 @@
     <nuxt-link @click="goTo('/about')" class="block border-yellow-400/10 border active:bg-yellow-400/10 transition-all p-3 text-lg text-yellow-400 font-bold rounded-lg my-5">
         <i class="material-icons align-middle text-2xl mr-2">home</i> About
     </nuxt-link>
-    <nuxt-link @click="goTo('/')" class="block border-yellow-400/10 border active:bg-yellow-400/10 transition-all p-3 text-lg text-yellow-400 font-bold rounded-lg my-5">
+    <nuxt-link @click="goTo('/projects')" class="block border-yellow-400/10 border active:bg-yellow-400/10 transition-all p-3 text-lg text-yellow-400 font-bold rounded-lg my-5">
         <i class="material-icons align-middle text-2xl mr-2">home</i> Projects
     </nuxt-link>
-    <nuxt-link @click="goTo('/')" class="block border-yellow-400/10 border active:bg-yellow-400/10 transition-all p-3 text-lg text-yellow-400 font-bold rounded-lg my-5">
+    <nuxt-link @click="goTo('/blogs')" class="block border-yellow-400/10 border active:bg-yellow-400/10 transition-all p-3 text-lg text-yellow-400 font-bold rounded-lg my-5">
         <i class="material-icons align-middle text-2xl mr-2">code</i> Blogs
     </nuxt-link>
     <a href="#!" @click="openSidenav = false" class="block border-yellow-400/0 border active:bg-white/10 transition-all p-3 text-md text-white/80 font-bold rounded-lg my-5">

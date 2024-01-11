@@ -132,64 +132,12 @@
     <h3 class="text-white text-4xl font-bold ">Our Previous Work</h3>
     <img class="mx-auto mb-20" src="~/assets/img/divider.svg" alt="">
 
-    <div class="flex flex-col lg:flex-row items-center my-14">
-        <div class="w-full lg:w-2/4 pa-3 justify-center">
-            <img src="~/assets/img/project-1.png" alt="Covax E-Passport" class="w-full max-w-xl mx-auto">
-        </div>
-        <div class="w-full lg:w-2/4 pa-3 text-left p-3">
-            <h3 class="text-white text-lg md:text-2xl font-bold my-5">Covax E-Passport</h3>
-            <h2 class="text-yellow-400 text-2xl md:text-4xl font-bold drop-shadow-lg leading-relaxed my-5">CoVid-19 Contact Tracing and Monitoring App</h2>
-            <p class="text-white/70 text-md md:text-lg leading-loose drop-shadow-md">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one.</p>
-            <a class="text-yellow-400 drop-shadow-lg uppercase mt-10 inline-block font-bold text-md tracking-widest border-b-2 hover:border-yellow-400 border-yellow-400/20" href="#!">VIEW CASE STUDY</a>
-        </div>
-    </div>
-
-    <div class="flex flex-col lg:flex-row-reverse items-center my-14">
-        <div class="w-full lg:w-2/4 pa-3 justify-center">
-            <img src="~/assets/img/project-2.png" alt="GS Digital Marketing App" class="w-full max-w-xl mx-auto">
-        </div>
-        <div class="w-full lg:w-2/4 pa-3 text-left p-3">
-            <h3 class="text-white text-lg md:text-2xl font-bold my-5">GS Digital Marketing App</h3>
-            <h2 class="text-yellow-400 text-2xl md:text-4xl font-bold drop-shadow-lg leading-relaxed my-5">Mobile Wallet and Earning Application</h2>
-            <p class="text-white/70 text-md md:text-lg leading-loose drop-shadow-md">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one.</p>
-            <a class="text-yellow-400 drop-shadow-lg uppercase mt-10 inline-block font-bold text-md tracking-widest border-b-2 hover:border-yellow-400 border-yellow-400/20" href="#!">VIEW CASE STUDY</a>
-        </div>
-    </div>
-
-    <div class="flex flex-col lg:flex-row items-center my-14">
-        <div class="w-full lg:w-2/4 pa-3 justify-center">
-            <img src="~/assets/img/project-3.png" alt="SchoolShare" class="w-full max-w-xl mx-auto">
-        </div>
-        <div class="w-full lg:w-2/4 pa-3 text-left p-3">
-            <h3 class="text-white text-lg md:text-2xl font-bold my-5">SchoolShare</h3>
-            <h2 class="text-yellow-400 text-2xl md:text-4xl font-bold drop-shadow-lg leading-relaxed my-5">Document Sharing Platform for Schools</h2>
-            <p class="text-white/70 text-md md:text-lg leading-loose drop-shadow-md">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one.</p>
-            <a class="text-yellow-400 drop-shadow-lg uppercase mt-10 inline-block font-bold text-md tracking-widest border-b-2 hover:border-yellow-400 border-yellow-400/20" href="#!">VIEW CASE STUDY</a>
-        </div>
-    </div>
+    <project-highlights></project-highlights>
 </div>
 
 
 
-<div class="call-to-action my-20 py-10">
-    <div class="box border-t-2 border-b-2 border-yellow-400 bg-[#222222]">
-        <div class="flex mx-auto max-w-screen-xl items-center">
-            <div class="p-8 py-[40px] w-full md:w-2/4 text-center md:text-left">
-                <i class="material-icons text-[50px] md:text-[70px] text-yellow-400">schedule</i>
-                <h2 class="text-xl md:text-2xl font-bold text-white">Let's Schedule your</h2>
-                <h2 class="text-2xl md:text-4xl font-bold text-yellow-400 my-7">FREE CONSULTATION</h2>
-                <p class="text-lg text-gray-300 leading-loose">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was.</p>
-                <a href="#!" class="inline-block bg-yellow-400 m-4 p-3 px-6 text-nowrap overflow-hidden truncate max-w-full rounded-full font-bold mt-12 text-lg shadow-lg shadow-yellow-400/30 active:scale-105 active:shadow-xl transition-all">FREE CONSULTATION <i class="material-icons align-middle text-xl ml-2">arrow_forward</i></a>
-            </div>
-            <div class="hidden md:block p-8 w-2/4">
-                <div class="calendly-inline-widget shadow-yellow-400/20 shadow-lg rounded-xl h-[700px] -my-16 max-w-md mx-auto overflow-hidden" data-url="https://calendly.com/raldincasidar/free-consultation"></div>
-               <!-- <div class="">
-               </div> -->
-            </div>
-        </div>
-
-    </div>
-</div>
+<call-to-action></call-to-action>
 
 
 <div class="our-services min-h-full py-20 px-0 md:px-10 text-center max-w-screen-xl mx-auto">
@@ -200,12 +148,7 @@
     <ClientOnly>
         <carousel :items-to-show="showCarouselItem" :wrap-around="true" class="shadow-x-md">
             <slide v-for="slide in 10" :key="slide" class="p-3">
-                <div class="border-gray-400 border rounded-lg p-5 py-8 pt-0 text-center w-full mt-20 group hover:shadow-lg shadow-yellow-400 transition-all cursor-pointer active:scale-95">
-                    <div class="w-full pb-[56%] bg-gray-400 rounded-lg shadow-yellow-400/30 shadow-lg mb-10 -mt-16 -rotate-1 bg-no-repeat bg-cover transition-transform group-hover:scale-105 group-hover:rotate-3" style="background-image: url('https://picsum.photos/1080/720')"></div>
-                    <h6 class="text-left text-gray-400 my-4">5 mins read - Raldin C. Disomimba</h6>
-                    <h4 class="text-left text-xl font-bold text-yellow-400 drop-shadow-lg">Why do you need to work in a grabe environment</h4>
-                    <a href="#!" class="inline-block mt-10 w-full rounded-full border-2 border-yellow-400 p-3 text-white font-bold shadow-md shadow-yellow-400/20 group-hover:bg-yellow-400 group-hover:text-gray-800 transition-colors focus:ring-2 ring-white">READ ARTICLE</a>
-                </div>
+                <blog-card></blog-card>
             </slide>
 
             <template #addons>
@@ -300,10 +243,6 @@ function listenAndAdjust(e) {
 onMounted(() => {
     listenAndAdjust()
     window.addEventListener('resize', listenAndAdjust, true);
-
-    let recaptchaScript = document.createElement('script')
-    recaptchaScript.setAttribute('src', 'https://assets.calendly.com/assets/external/widget.js')
-    document.head.appendChild(recaptchaScript)
 })
 
 onUnmounted(() => {

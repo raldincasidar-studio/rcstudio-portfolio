@@ -1,3 +1,9 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 @font-face {
     src: url('@/assets/fonts/Poppins-Regular.ttf');
     font-family: 'Poppins';
@@ -54,4 +60,34 @@ body {
 
 ::-webkit-scrollbar-thumb:active {
     background-color: #ffcc00;
+}
+
+
+
+
+
+
+@layer components {
+  .blog-content h1,
+  .blog-content h2,
+  .blog-content h3,
+  .blog-content h4,
+  .blog-content h5,
+  .blog-content h6 {
+    @apply text-3xl mt-20 text-yellow-400 font-bold my-7
+  }
+
+  .blog-content p {
+    @apply text-white text-lg md:text-xl text-justify leading-loose md:leading-loose
+  }
+
+  .blog-content p a, 
+  .blog-content a {
+    @apply text-yellow-400 border-yellow-400 border-b-2
+  }
+
+  .blog-content img {
+    @apply w-full my-10
+  }
+
 }
