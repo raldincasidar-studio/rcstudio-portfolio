@@ -74,11 +74,11 @@ body {
   .blog-content h4,
   .blog-content h5,
   .blog-content h6 {
-    @apply text-3xl mt-20 text-yellow-400 font-bold my-7
+    @apply text-xl md:text-3xl mt-20 text-yellow-400 font-bold my-7 leading-relaxed md:leading-relaxed
   }
 
   .blog-content p {
-    @apply text-white text-lg md:text-xl text-justify leading-loose md:leading-loose
+    @apply text-white text-base md:text-xl text-justify leading-loose md:leading-loose
   }
 
   .blog-content p a, 

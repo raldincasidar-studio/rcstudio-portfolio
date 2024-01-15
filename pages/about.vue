@@ -4,8 +4,8 @@
     <div class="hero-page text-center py-20 px-5 md:px-10 max-w-screen-xl mx-auto">
         <h2 class="text-white text-2xl md:text-4xl my-10 font-bold">About Us</h2>
         <!-- <h1 class="text-yellow-400 drop-shadow-xl shadow-yellow-400/50 text-7xl my-10 font-bold">Design Websites</h1> -->
-        <h1 class="text-yellow-400 drop-shadow-xl leading-relaxed shadow-yellow-400/50 text-5xl md:text-7xl my-10 font-bold">We help you with your Software Projects</h1>
-        <p class="text-white/70 text-md md:text-lg  leading-10">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and.</p>
+        <h1 class="text-yellow-400 drop-shadow-xl leading-relaxed md:leading-relaxed shadow-yellow-400/50 text-4xl md:text-6xl my-10 font-bold">We help you with your Software Projects</h1>
+        <p class="text-white/70 text-md md:text-lg  leading-10 md:leading-loose">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and.</p>
         <a class="rounded-full inline-block white-text p-4 px-6 bg-yellow-400 mt-20 shadow-md shadow-yellow-400/50 font-bold uppercase hover:scale-110 transition-all hover:shadow-lg active:scale-95 active:shadow-sm" href="#!">CREATE YOUR PROJECTS!</a>
     </div>
     
@@ -97,41 +97,7 @@
         <h3 class="text-white text-4xl font-bold ">Our Previous Work</h3>
         <img class="mx-auto mb-20" src="~/assets/img/divider.svg" alt="">
     
-        <div class="flex flex-col lg:flex-row items-center my-14">
-            <div class="w-full lg:w-2/4 pa-3 justify-center">
-                <img src="~/assets/img/project-1.png" alt="Covax E-Passport" class="w-full max-w-xl mx-auto">
-            </div>
-            <div class="w-full lg:w-2/4 pa-3 text-left p-3">
-                <h3 class="text-white text-lg md:text-2xl font-bold my-5">Covax E-Passport</h3>
-                <h2 class="text-yellow-400 text-2xl md:text-4xl font-bold drop-shadow-lg leading-relaxed my-5">CoVid-19 Contact Tracing and Monitoring App</h2>
-                <p class="text-white/70 text-md md:text-lg leading-loose drop-shadow-md">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one.</p>
-                <a class="text-yellow-400 drop-shadow-lg uppercase mt-10 inline-block font-bold text-md tracking-widest border-b-2 hover:border-yellow-400 border-yellow-400/20" href="#!">VIEW CASE STUDY</a>
-            </div>
-        </div>
-    
-        <div class="flex flex-col lg:flex-row-reverse items-center my-14">
-            <div class="w-full lg:w-2/4 pa-3 justify-center">
-                <img src="~/assets/img/project-2.png" alt="GS Digital Marketing App" class="w-full max-w-xl mx-auto">
-            </div>
-            <div class="w-full lg:w-2/4 pa-3 text-left p-3">
-                <h3 class="text-white text-lg md:text-2xl font-bold my-5">GS Digital Marketing App</h3>
-                <h2 class="text-yellow-400 text-2xl md:text-4xl font-bold drop-shadow-lg leading-relaxed my-5">Mobile Wallet and Earning Application</h2>
-                <p class="text-white/70 text-md md:text-lg leading-loose drop-shadow-md">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one.</p>
-                <a class="text-yellow-400 drop-shadow-lg uppercase mt-10 inline-block font-bold text-md tracking-widest border-b-2 hover:border-yellow-400 border-yellow-400/20" href="#!">VIEW CASE STUDY</a>
-            </div>
-        </div>
-    
-        <div class="flex flex-col lg:flex-row items-center my-14">
-            <div class="w-full lg:w-2/4 pa-3 justify-center">
-                <img src="~/assets/img/project-3.png" alt="SchoolShare" class="w-full max-w-xl mx-auto">
-            </div>
-            <div class="w-full lg:w-2/4 pa-3 text-left p-3">
-                <h3 class="text-white text-lg md:text-2xl font-bold my-5">SchoolShare</h3>
-                <h2 class="text-yellow-400 text-2xl md:text-4xl font-bold drop-shadow-lg leading-relaxed my-5">Document Sharing Platform for Schools</h2>
-                <p class="text-white/70 text-md md:text-lg leading-loose drop-shadow-md">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one.</p>
-                <a class="text-yellow-400 drop-shadow-lg uppercase mt-10 inline-block font-bold text-md tracking-widest border-b-2 hover:border-yellow-400 border-yellow-400/20" href="#!">VIEW CASE STUDY</a>
-            </div>
-        </div>
+        <project-highlights></project-highlights>
     </div>
     
     

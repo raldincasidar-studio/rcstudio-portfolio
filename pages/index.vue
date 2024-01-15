@@ -13,8 +13,8 @@
 <div class="who-are-we flex flex-column md:flex-row flex-wrap-reverse max-w-screen-2xl py-20 mx-auto min-h-full items-center px-3 md:px-10">
     <div class="box-1 p-4 w-full lg:w-2/4">
         <h3 class=" text-xl md:text-2xl text-white my-5 font-bold">Who are we?</h3>
-        <h2 class="text-4xl md:text-5xl text-yellow-400 drop-shadow-xl font-bold my-10 leading-relaxed">We are a team of software experts</h2>
-        <p class="text-md md:text-lg text-white/70 leading-10">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one.</p>
+        <h2 class="text-4xl md:text-5xl text-yellow-400 drop-shadow-xl font-bold my-10 leading-relaxed md:leading-relaxed">We are a team of software experts</h2>
+        <p class="text-md md:text-lg text-white/70 leading-10 md:leading-loose">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one.</p>
     </div>
     <div class="box-2 p-0 md:p-4 w-full lg:w-2/4 justify-center">
         <div class="flex flex-row p-0 md:p-10 justify-center gap-x-3 max-w-full md:max-w-xl m-auto">
